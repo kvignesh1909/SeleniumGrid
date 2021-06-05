@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BrowserStack Test automtion regression suite" parallel="tests" thread-count="4">
+
+
+	<test name="BrowserStack Test - FF">
+	<parameter name ="test"  value="value"></parameter>
+	
+		<!--  <groups>
+			<run>
+			 <include name="grp2"></include>
+			  <include name="grp1"></include>
+			</run>
+		</groups> -->
+		
+		<classes>
+			<class name="com.mytests.SampleTest" >
+				
+			</class>
+		</classes>
+
+	</test>
+
+
+	<test name="Test - FF">
+	<parameter name ="test"  value="value"></parameter>
+	
+		<!--  <groups>
+			<run>
+			 <include name="grp2"></include>
+			  <include name="grp1"></include>
+			</run>
+		</groups> -->
+		
+		<classes>
+			<class name="com.mytests.SampleTest2" >
+				
+			</class>
+		</classes>
+
+	</test>
+	
+
+
+</suite>
